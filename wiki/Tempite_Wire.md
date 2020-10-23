@@ -1,8 +1,10 @@
 ---
 title: "Tempite Wire"
 reg_id: "tempite_wire"
-description: "Description"
+description: "The name for Stained Glass when it has Tempite flowing through it"
 ---
+
+Tempite Wire is {% include mcwiki.html url="Stained_Glass" title="Stained Glass" %} when it has [Tempite](Tempite) flowing through it.
 
 <!-- Data Values -->
 <!-- ID -->

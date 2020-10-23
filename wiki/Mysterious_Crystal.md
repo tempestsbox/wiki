@@ -12,3 +12,7 @@ description: "Mysterious Crystals can be used to make machines more... interesti
 ### Tempite Component
 Mysterious Crystals can be used in [Tempite](Tempite)-powered [machines](Machine) to make their abilities more useful or drastically more effective.
 - *See [Machine § Mysteriosity](Machine#mysteriosity)*
+
+<!-- Data Values -->
+<!-- ID -->
+{% include data_table/data_values.html block_name=page.title block_id=page.reg_id block_texture_path="item/mysterious_crystal" %}

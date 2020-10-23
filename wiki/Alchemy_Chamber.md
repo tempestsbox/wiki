@@ -9,7 +9,7 @@ description: "The Alchemy Chamber enchances the quality of blocks in front of it
 {% include text/obtaining/breaking/barrel.md %}
 
 ### Crafting
-{% include recipe.html ingredients="2 Vulcaanium Crystals, 6 Blackstone, 2 Iron Bars, and 1 Amethyst" %}
+{% include recipe.html ingredients="7 Iron Ingots, 1 Cobblestone, and 1 Blaze Rod" %}
 
 ## Usage
 ### Machine
@@ -28,6 +28,8 @@ When powered, the  {{ page.title }} will convert blocks into higher tier version
 {% include fig.html src="/assets/docs/alchemy_chamber/showcase_angled.gif" caption="6 Alchemy Chambers, each one level of ascension higher than the last" %}
 #### Ascension
 Ascension of the {{ page.title }} increases the distance of blocks affected by 1 per level.
+- *See [Machine § Ascension](Machine#ascension)*
+
 #### Mysteriosity
 The {{ page.title }} does not have Mysterious functionality.
 - *See [Machine § Mysteriosity](Machine#mysteriosity)*

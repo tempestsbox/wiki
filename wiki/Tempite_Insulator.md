@@ -1,8 +1,10 @@
 ---
 title: "Tempite Insulator"
 reg_id: "tempite_insulator"
-description: "Description"
+description: "Volatile little Tempite components..."
 ---
+
+Tempite Insulators are volatile [Tempite](Tempite) components which explode on contact with any block that isn't [Tempite Wire](Tempite_Wire), and have an especial reaction to [Tempite Stones](Tempite_Stone).
 
 ## Obtaining
 ### Breaking
@@ -12,11 +14,11 @@ description: "Description"
 
 ## Usage
 ### Tempite Component
-- *See [{{ page.title }} § Machine ](#machine)*
-
 When attached to [Tempite Wire](Tempite_Wire), that [Tempite Wire](Tempite_Wire) will not be able to transmit [Tempite](Tempite).
 ### Breaking
-{% include data_table/obtaining/breaking/barrel.html block_name="tempite_insulator" block_id="tempite_insulator" block_texture_path="block/tempite_insulator_front" %}
+Tempite Insulators are the only way to break [Tempite Stones](Tempite_Stone). This can be achieved by placing an insulator on one.
+
+{% include data_table/obtaining/breaking/barrel.html block_name="tempite_insulator" block_id="tempite_insulator" block_texture_path="item/tempite_insulator" %}
 
 <!-- Data Values -->
 <!-- ID -->

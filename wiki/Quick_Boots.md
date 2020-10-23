@@ -1,14 +1,14 @@
 ---
-title: "Quick Bow"
-reg_id: "quick_bow"
-description: "An attributed bow which gives speed"
+title: "Quick Boots"
+reg_id: "quick_boots"
+description: "An attributed boot item that gives speed"
 ---
 
-The Quick Bow is an attributed bow which gives speed.
+Quick Boots are an attributed boot item that give speed.
 
 ## Obtaining
 ### Loot Chests
-Quick Bows can be found in various TTB loot chests.
+Quick Boots can be found in various TTB loot chests.
 
 | Structure        | Container                 | Quantity | Chance |
 |------------------|---------------------------|----------|--------|
@@ -29,8 +29,8 @@ Quick Bows can be found in various TTB loot chests.
 |                  | Lookout Uncommon          | 1        | 11.42% |
 
 ## Usage
-When held in either hand, the Quick Bow will apply its speed attribute to the entity.
+When on feet, the Quick Boots will apply their speed effect to the entity.
 
 <!-- Data Values -->
 <!-- ID -->
-{% include data_table/data_values.html block_name=page.title block_id=page.reg_id block_texture_path="item/quick_bow" %}
+{% include data_table/data_values.html block_name=page.title block_id=page.reg_id block_texture_path="item/quick_boots_overlay" %}

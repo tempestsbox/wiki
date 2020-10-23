@@ -6,7 +6,7 @@ description: "The Tempest Crafter is perhaps the most important block in all of 
 
 ## Obtaining
 ### Breaking
-- *See [Tempest Crafter § Usage § Breaking](#breaking)*
+- *See [Tempest Crafter § Usage § Breaking](#breaking-1)*
 
 Due to technical limitations, all blocks with a custom UI are underlyingly {% include mcwiki.html url="Barrel" title="barrels" %}, meaning they have wooden properties.
 ### Crafting

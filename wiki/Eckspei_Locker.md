@@ -11,14 +11,16 @@ The {{ page.title }} absorbs {% include mcwiki.html url="Experience_Orb" title="
 {% include text/obtaining/breaking/barrel.md %}
 
 ### Crafting
-{% include recipe.html ingredients="1 Vulcaanium Crystal, 6 Iron Ingots, 1 Glass Pane, 1 Glass Bottle, and 1 Observer" %}
+{% include recipe.html ingredients="6 Iron Ingots, 1 Glass Pane, 1 Glass Bottle, and 1 Observer" %}
 
 ## Usage
 ### Machine
-When powered, the {{ page.title }} absorbs {% include mcwiki.html url="Experience_Orb" title="experience orbs" %} in a `LEFT/RIGHT 3 | Y 1 | FORWARDS 2` range in front of itself.
+When powered, the {{ page.title }} absorbs {% include mcwiki.html url="Experience_Orb" title="experience orbs" %} in a 3x1x2 range in front of itself.
 {% include fig.html src="/assets/docs/eckspei_locker/demo.png" border=true %}
 #### Ascension
-Ascension of the {{ page.title }} increases the range of absorption by `FORWARDS +1` per level.
+Ascension of the {{ page.title }} increases the range of absorption forwards by 1 per level.
+- *See [Machine § Ascension](Machine#ascension)*
+
 #### Mysteriosity
 The {{ page.title }} does not have Mysterious functionality.
 - *See [Machine § Mysteriosity](Machine#mysteriosity)*
@@ -31,7 +33,7 @@ The {{ page.title }} does not have Mysterious functionality.
 ### Eckspei Rod
 If an [Eckspei Rod](Eckspei_Rod) is placed in the first crystal-slot of an {{ page.title }}, the [Eckspei Rod](Eckspei_Rod) will gain 1 durability per tick - 20 durability per second.
 
-[`Demo`](https://youtu.be/dpjh2LFJU0E)
+- [*See demonstration* (`1:36`)](https://youtu.be/dpjh2LFJU0E)
 
 ### Breaking
 {% include data_table/obtaining/breaking/barrel.html block_name=page.title block_texture_path="block/eckspei_locker_front" %}
